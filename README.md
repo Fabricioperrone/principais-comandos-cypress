@@ -42,6 +42,15 @@ cy.fixture('dados.json').then((dados) => {
  ```
 cy.intercept('GET', '/api/endpoint', { statusCode: 200, body: 'Mocked response' })
 ```
+10. .clear(): Limpa um campo, para posterior digitação. Por exemplo:
+```
+cy.get('#email').type('example@seuemail.com')
+  .should('have.value', 'example@.seuemail.com')
+  .clear()
+  .should('have.value', '')
+```
+11. .should(): Leia mais sobre o esse comando aqui! (https://docs.cypress.io/api/commands/should)
+
 <p>Estes são apenas alguns dos principais comandos do Cypress. O Cypress oferece uma gama completa de funcionalidades e comandos para automatizar e testar aplicativos da web de forma eficiente e robusta. </p>
 
 [Documentação Oficial Cypress](https://docs.cypress.io/guides/overview/why-cypress) 
