@@ -1,4 +1,4 @@
-<h1>principais-comandos-cypress</h1>
+<h1>Principais Comandos Cypress</h1>
 
 
 <p>O Cypress é uma ferramenta de automação de testes end-to-end (E2E) muito popular para aplicativos da web. Ele fornece uma variedade de comandos que podem ser utilizados para criar testes robustos e eficazes. Abaixo alguns dos principais comandos do Cypress.</p>
