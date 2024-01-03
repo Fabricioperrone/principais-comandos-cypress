@@ -18,7 +18,7 @@ cy.contains('Botão de Login').click()
 ```
 4.	cy.type(): Insere um texto em um campo de input. Por exemplo:
 ```
-cy.type('#username').type('usuario123')
+cy.get('#username').type('usuario123')
 ```
 5.	cy.click(): Clica em um elemento na página. Exemplo:
 ```
